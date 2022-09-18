@@ -6,7 +6,7 @@ const path = require('path')
 
 mongoose
   .connect(
-    'mongodb+srv://bamba:passer123@cluster0.jzwq3.mongodb.net/?retryWrites=true&w=majority',
+    'Votre base de donne ici',
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log('Connexion à MongoDB réussie !'))
